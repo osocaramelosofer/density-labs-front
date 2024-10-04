@@ -33,7 +33,7 @@ Density labs technical interview for full stack developer
 
 node version v18.18.2
 
-Install density-labs-front with pnpm
+Install density-labs-front with npm
 
 Clone the project
 
@@ -50,24 +50,21 @@ Go to the project directory
 Install dependencies with pnpm
 
 ```bash
-  pnpm install
+  npm install
 ```
 
 Start the server
 
 ```bash
-  pnpm dev
+  pnpm run dev
 ```
 
 Run the test
 
 ```bash
-  pnpm test
+  npm run test
 ```
 
 ## Tech Stack
 
 **Client:** React, vitest, TailwindCSS
-
-
-
