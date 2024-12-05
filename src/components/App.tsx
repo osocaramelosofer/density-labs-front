@@ -1,13 +1,12 @@
 import { commentApi } from 'api'
 import { useEffect } from 'react'
 import CommentForm from './comment-form'
-import { IComment } from 'types/comment'
 import { CommentList } from './comment-list'
 import { Divider } from '@nextui-org/react'
 import { useCommentContext } from 'hooks/useCommentContext'
 
 function App() {
-  const { comments, setComments, addComment } = useCommentContext()
+  const { comments, setComments } = useCommentContext()
 
   useEffect(() => {
     const fetchComments = async () => {
